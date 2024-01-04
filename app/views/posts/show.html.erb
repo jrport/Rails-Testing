@@ -1,0 +1,23 @@
+<h1>Meu PAAU DIRETO DO MVCESTE EH O WEBSERVER FALANDO DIRETO DO VIEWER DO MVC</h1>
+<p>COLOCADO DIRETO DO VIEWER<p>
+<p style = "font-size: small;">AQ DO CONTROLLER?</p>
+<ul>
+  Percaminhos milenares com gotas de sabedoria
+  <% @tweets.each do |post|  %>
+    <li>
+      <h1>
+        <a href="/posts/<%= post.id %>">
+          <%= post.user  %>
+        </a>
+      </h1>
+      <p>
+        <%= post.content %>
+      </p>
+      <small>
+        <%= post.age %>
+      </small>
+    </li>
+  <% end %>
+<button type="submit">FALE MERDA</button>
+<button type="submit">ENtrar?</button>
+</ul>
